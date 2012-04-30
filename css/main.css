@@ -183,8 +183,7 @@ h4 {
     overflow: hidden;
 }
 
-.go_left,
-.go_right {
+.arrow {
     width: 40px;
     height: 450px;
     float: left;
@@ -195,16 +194,15 @@ h4 {
     -webkit-transition: opacity .25s ease-in-out;
 }
 
-.go_left {
+.left {
     background: url("../images/go_left.png") no-repeat center center;
 }
 
-.go_right {
+.right {
     background: url("../images/go_right.png") no-repeat center center;
 }
 
-.go_left:hover,
-.go_right:hover {
+.arrow:hover,
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -280,6 +278,8 @@ h4 {
 }
 
 .showcase_menu {
+    width: 100%;
+    overflow: hidden;
     padding: 0 40px;
     color: #486300;
     font: 19px/19px 'JosefinSansStdLight', Arial, sans-serif;
