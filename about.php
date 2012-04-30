@@ -22,16 +22,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact">Contact</a>
                     </li>
                     <li>
-                        <a href="about.html" class="active">About</a>
+                        <a href="about" class="active">About</a>
                     </li>
                     <li>
-                        <a href="work.html">Work</a>
+                        <a href="work">Work</a>
                     </li>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index">Home</a>
                     </li>
                 </ul>
             </nav>
