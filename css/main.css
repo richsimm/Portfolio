@@ -42,7 +42,10 @@ header nav a {
 }
 
 header a:hover,
-header a.active {
+body#home header li.home a,
+body#about header li.about a,
+body#contact header li.contact a,
+body#work header li.work a {
     color: #FFFFFF;
 }
 
