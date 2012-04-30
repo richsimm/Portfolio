@@ -35,32 +35,13 @@
                         <a href="#" class="showcase_menu_item"><img src="images/work/print/mediatel/thumb.jpg" width="50" height="50" border="0" /></a>
                     </div>
                 </div>
-                <div class="showcase_carousel">
-                    <a href="#" class="go_left"></a>
-                    <ol class="showcase_image">
-                        <li>
-                            <img src="images/work/web/rajar/1.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/2.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/3.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/4.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/5.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                    </ol>
-                    <a href="#" class="go_right"></a>
-                </div>
+                <?php
+                    $carouselImagePath = 'images/work/web/rajar/';
+                    $carouselLength = 5;
+                    $carouselAlt = 'Rajar screen';
+                    
+                    include('__carousel.php');
+                ?>
             </article>
         </section>
     </div>

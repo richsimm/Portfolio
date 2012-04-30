@@ -37,32 +37,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="showcase_carousel">
-                    <a href="#" class="go_left"></a>
-                    <ol class="showcase_image">
-                        <li>
-                            <img src="images/work/web/rajar/1.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/2.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/3.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/4.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/rajar/5.jpg" width="800" height="450" border="0"
-                            alt="Rajar screen" />
-                        </li>
-                    </ol>
-                    <a href="#" class="go_right"></a>
-                </div>
+                <?php
+                    $carouselImagePath = 'images/work/web/rajar/';
+                    $carouselLength = 5;
+                    $carouselAlt = 'Rajar screen';
+                    
+                    include('__carousel.php');
+                ?>
             </article>
             <article class="content_item">
                 <div class="content_info">
@@ -94,28 +75,13 @@
                         </ul>
                     </div>
                 </div>
-                <div class="showcase_carousel">
-                    <a href="#" class="go_left"></a>
-                    <ol class="showcase_image">
-                        <li>
-                            <img src="images/work/web/events/1.jpg" width="800" height="450" border="0"
-                            alt="Events screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/events/2.jpg" width="800" height="450" border="0"
-                            alt="Events screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/events/3.jpg" width="800" height="450" border="0"
-                            alt="Events screen" />
-                        </li>
-                        <li>
-                            <img src="images/work/web/events/4.jpg" width="800" height="450" border="0"
-                            alt="Events screen" />
-                        </li>
-                    </ol>
-                    <a href="#" class="go_right"></a>
-                </div>
+                <?php
+                    $carouselImagePath = 'images/work/web/events/';
+                    $carouselLength = 4;
+                    $carouselAlt = 'Events screen';
+                    
+                    include('__carousel.php');
+                ?>
             </article>
         </section>
     </div>

@@ -213,7 +213,7 @@ h4 {
     clear: both;
 }
 
-.showcase_image {
+.showcase_carousel ol {
     width: 800px;
     height: 450px;
     padding-bottom: 16px;
@@ -296,18 +296,22 @@ h4 {
     margin-top: -5px;
 }
 
-.showcase_image {
+.showcase_carousel ol {
     position: relative;
     width: 800px;
     height: 450px;
 }
 
-.showcase_image li {
+.showcase_carousel ol li {
     position: absolute;
     left: 0;
     top: 0;
+    display: none;
 }
 
+.showcase_carousel ol li.active {
+    display: block;
+}
 
 
 
