@@ -1,5 +1,7 @@
 <?php
 
+    define('AJAX', true);
+    
     $project = isset($_GET['project']) ? $_GET['project'] : null;
 
     if(!$project) {
