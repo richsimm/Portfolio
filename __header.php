@@ -34,7 +34,7 @@
                         <a href="about">About</a>
                     </li>
                     <li class="work">
-                        <a href="work">Work</a>
+                        <a href="web">Work</a>
                     </li>
                     <li class="home">
                         <a href="index">Home</a>
