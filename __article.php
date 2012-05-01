@@ -11,7 +11,15 @@
 <article class="content_item">
     <div class="content_info">
         <div class="content_logo">
-            <img src="<?php echo $data['logo'] ?>" alt="<?php echo $data['logo_alt'] ?>" />
+            <?php
+
+                $image = $data['logo'];
+                
+                if(defined('AJAX')) {
+                    $image = str_replace('_p', '_r', $image);
+                }
+            ?>
+            <img src="<?php echo $image ?>" alt="<?php echo $data['logo_alt'] ?>" />
         </div>
         <div class="content_copy">
             <p><?php echo $data['description'] ?></p>
