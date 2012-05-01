@@ -15,6 +15,9 @@
 
                 $project = 'events';
                 include('__article.php');
+
+                $project = 'barb';
+                include('__article.php');
             ?>
 
         </section>

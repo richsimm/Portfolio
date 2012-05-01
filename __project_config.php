@@ -40,6 +40,25 @@ $project_config = array(
             'Declutter, compartmentalise and modernise.'
         )
     ),
+    
+    
+    'barb' => array(
+        'image_path' => 'images/work/web/barb/',
+        'image_num' => 3,
+        'image_alt' => 'BARB screen',
+        
+        'logo' => 'images/work/logos/barb/logo_p.png',
+        'logo_alt' => 'BARB',
+        'description' => "
+            The Broadcasters' Audience Research Board is the organisation responsible for providing official measurement of UK television audiences.
+        ",
+        'bullets' => array(
+            'Create an engaging, content-rich website that simultaneously appeals to industry, academic and public interest.',
+            'Display vast and varied content across open-access and subscriber areas.'
+        )
+    ),
+    
+    
 
 
 );
