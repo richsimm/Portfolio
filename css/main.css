@@ -260,7 +260,7 @@ h4 {
 }
 
 .showcase_menu_group {
-    margin: 0 0 4px 4px;
+    margin: 0 0 10px 4px;
     float: left;
     background-color: #e8eed7;
     height: 50px;
@@ -269,7 +269,7 @@ h4 {
 }
 
 .showcase_menu_group:first-child {
-    margin: 0 0 4px 0;
+    margin: 0 0 10px 0;
 }
 
 .showcase_menu_group_header {
@@ -282,7 +282,7 @@ h4 {
     overflow: hidden;
     padding: 0 40px;
     color: #486300;
-    font: 19px/19px 'JosefinSansStdLight', Arial, sans-serif;
+    font: 19px/19px 'JosefinSansStdLight', Arial, sans-serif; 
 }
 
 .showcase_menu_item {
