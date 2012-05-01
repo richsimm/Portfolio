@@ -2,7 +2,7 @@
 
 $project_config = array(
 
-    'rajar' => array(
+    'web_rajar' => array(
 
         'image_path' => 'images/work/web/rajar/',
         'image_num' => 5,
@@ -22,7 +22,7 @@ $project_config = array(
         )
     ),
 
-    'events' => array(
+    'web_events' => array(
         'image_path' => 'images/work/web/events/',
         'image_num' => 4,
         'image_alt' => 'Events screen',
@@ -42,7 +42,7 @@ $project_config = array(
     ),
     
     
-    'barb' => array(
+    'web_barb' => array(
         'image_path' => 'images/work/web/barb/',
         'image_num' => 3,
         'image_alt' => 'BARB screen',

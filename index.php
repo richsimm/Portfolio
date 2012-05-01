@@ -14,9 +14,9 @@
                         <div class="showcase_menu_group_header">
                             Web
                         </div>
-                        <a href="web#rajar" data-key="rajar" class="showcase_menu_item active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
-                        <a href="web#events" data-key="events" class="showcase_menu_item"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="web#barb" data-key="barb" class="showcase_menu_item"><img src="images/work/web/cc/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="web#web_rajar" data-key="web_rajar" class="showcase_menu_item active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
+                        <a href="web#web_events" data-key="web_events" class="showcase_menu_item"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="web#web_barb" data-key="web_barb" class="showcase_menu_item"><img src="images/work/web/cc/thumb.jpg" width="50" height="50" border="0" /></a>
                     </div>
                     <div class="showcase_menu_group">
                         <div class="showcase_menu_group_header">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <?php
-                    $project = 'rajar';
+                    $project = 'web_rajar';
                     include('__carousel.php');
                 ?>
             </article>

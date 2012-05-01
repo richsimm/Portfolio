@@ -20,6 +20,10 @@
     ?>
     </ol>
     <a href="#" class="arrow action right"></a>
+    <div class="pip_container">
+    	<a href="#" class="pip active"><img src="images/pip.png" alt="*" /></a>
+    	<a href="#" class="pip"><img src="images/pip.png" alt="*" /></a>
+    </div>
 </div>
 
 <?php
