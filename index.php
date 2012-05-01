@@ -14,8 +14,8 @@
                         <div class="showcase_menu_group_header">
                             Web
                         </div>
-                        <a href="#" class="showcase_menu_item active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="work#rajar" data-key="rajar" class="showcase_menu_item active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
+                        <a href="work#events" data-key="events" class="showcase_menu_item"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
                         <a href="#" class="showcase_menu_item"><img src="images/work/web/cc/thumb.jpg" width="50" height="50" border="0" /></a>
                     </div>
                     <div class="showcase_menu_group">

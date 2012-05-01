@@ -36,6 +36,49 @@
                 next.addClass('active');
             });
         });
+
+        $(document).on('click', '.showcase_menu_item', function(event) {
+
+            var anchor = $(event.target);
+            event.preventDefault();
+
+            if(!anchor.attr('data-key')) {
+                anchor = anchor.parents('a[data-key]');
+            }
+
+            var project = anchor.attr('data-key');
+
+            // Switch active states
+            $('.showcase_menu_item').removeClass('active');
+            anchor.addClass('active');
+
+            // Empty current carousel and description
+            var parent = anchor.parents('#container');
+            var carousel = parent.find('.showcase_carousel');
+            var description = parent.find('.panel_inner');
+            carousel.html('');
+            description.html('');
+
+            // Fetch data
+            $.ajax({
+                url: 'ajax',
+                data: {
+                    'project': project
+                },
+                success: function(html) {
+
+                    var result = $(html);
+
+                    // Update carousel
+                    carousel.html(result.find('.showcase_carousel'));
+
+                    // Update description
+                    description.html(result.find('.content_info'));
+                },
+                dataType: 'html'
+            });
+        });
+
     </script>
     </body>
 </html>
