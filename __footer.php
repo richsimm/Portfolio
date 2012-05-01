@@ -2,7 +2,7 @@
     <script>
         $(document).ready(function() {
 
-            $(document).on('click', '.showcase_carousel .arrow', function(event) {
+            $(document).on('click', '.showcase_carousel .action', function(event) {
 
                 var arrow = $(event.target);
 

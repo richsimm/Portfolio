@@ -202,7 +202,7 @@ h4 {
     background: url("../images/go_right.png") no-repeat center center;
 }
 
-.arrow:hover,
+.arrow:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -307,6 +307,7 @@ h4 {
     left: 0;
     top: 0;
     display: none;
+    cursor: pointer;
 }
 
 .showcase_carousel ol li.active {
