@@ -36,10 +36,7 @@
                     </div>
                 </div>
                 <?php
-                    $carouselImagePath = 'images/work/web/rajar/';
-                    $carouselLength = 5;
-                    $carouselAlt = 'Rajar screen';
-                    
+                    $project = 'rajar';
                     include('__carousel.php');
                 ?>
             </article>
