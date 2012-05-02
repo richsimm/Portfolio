@@ -89,7 +89,7 @@
                 var description = parent.find('.panel_inner');
 
                 carousel.addClass('loading');
-                description.html('');
+                description.addClass('loading');
 
                 // Fetch data
                 $.ajax({
@@ -111,6 +111,7 @@
 
                         // Stop loading
                         carousel.removeClass('loading');
+                        description.removeClass('loading');
                     },
                     dataType: 'html'
                 });

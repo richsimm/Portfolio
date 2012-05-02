@@ -313,6 +313,19 @@ h4 {
 	visibility: hidden;
 }
 
+.showcase_carousel.loading {
+    background: url('../images/loader.gif') no-repeat 50% 40%;
+}
+
+.showcase_carousel.loading * {
+    visibility: hidden;
+}
+
+.panel_inner.loading * {
+    visibility: hidden;
+}
+
+
 .showcase_carousel ol {
     position: relative;
     width: 800px;
