@@ -5,8 +5,10 @@
     if($data) {
 ?>
 
-<div class="showcase_carousel">
+<div class="showcase_carousel image-num-<?php echo $data['image_num'] ?>">
+
     <a href="#" class="arrow action left"></a>
+
     <ol>
     <?php
         for($i = 1; $i < $data['image_num'] + 1; $i++) {
@@ -19,7 +21,9 @@
         }
     ?>
     </ol>
+    
     <a href="#" class="arrow action right"></a>
+    
     <?php if($data['image_num'] > 1) { ?>
     <div class="pip_container">
         <?php for($i = 0; $i < $data['image_num']; $i++) { ?>
