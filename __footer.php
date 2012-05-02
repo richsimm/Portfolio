@@ -1,6 +1,12 @@
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+    <script src="js/jquery-1.7.1.min.js"></script>
     <script>
         $(document).ready(function() {
+
+            function changeToImage(index) {
+
+
+            }
 
             $(document).on('click', '.showcase_carousel .action', function(event) {
 
@@ -30,6 +36,13 @@
                         next = list.find('li').first();
                     }
                 }
+
+                // Update pips
+                var pips = arrow.parents('.showcase_carousel').find('.pip_container a');
+                var imageIndex = list.find('li').index(next);
+
+                pips.removeClass('active');
+                $(pips.get(imageIndex)).addClass('active');
 
                 // Switch active states on current and next list element
                 active.removeClass('active');
