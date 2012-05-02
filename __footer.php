@@ -51,7 +51,7 @@
                 changeToImage(carousel, next.index());
             });
 
-            $(document).on('click', '.pip_container a', function() {
+            $(document).on('click', '.pip_container a', function(event) {
 
                 event.preventDefault();
 
@@ -67,7 +67,6 @@
             });
 
             $(document).on('click', '.work_menu_square', function(event) {
-
                 event.preventDefault();
                 event.stopPropagation();
 
