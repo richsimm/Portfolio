@@ -20,10 +20,13 @@
     ?>
     </ol>
     <a href="#" class="arrow action right"></a>
+    <?php if($data['image_num'] > 1) { ?>
     <div class="pip_container">
-    	<a href="#" class="pip active"><img src="images/pip.png" alt="*" /></a>
-    	<a href="#" class="pip"><img src="images/pip.png" alt="*" /></a>
+        <?php for($i = 0; $i < $data['image_num']; $i++) { ?>
+    	<a href="#" class="pip<?php if($i == 0) { ?> active<?php } ?>"><img src="images/pip.png" alt="*" /></a>
+    	<?php } ?>
     </div>
+    <?php } ?>
 </div>
 
 <?php
