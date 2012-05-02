@@ -12,7 +12,14 @@
             <div class="content">
                 <p>
                     To find out more about me, my work and how I can be of benefit to your
-                    projects, send me an email or call me on 07745 800424.
+                    projects,<br /> 
+                    <script type="text/javascript">
+        			var a = ['richard@','sim','mon','ds.c','om'];
+        			var subject = "Portfolio Enquiry";
+        			document.write('<a href="'+'ma'+'il'+'to:'+a[0]+a[1]+a[2]+a[3]+a[4]+'?subject=' + subject + '">send me an email</a>');
+        			</script>
+                    
+                    or call me on 07745 800424.
                 </p>
                 <p>
                 </p>

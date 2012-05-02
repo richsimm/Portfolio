@@ -61,7 +61,7 @@
                                 interactive designer
                             </div>
                             <div class="pdf_link">
-                                <a href="#">Download Richard's CV</a>
+                                <a href="/richard_simmonds_cv.pdf">Download Richard's CV</a>
                             </div>
                             <?php } ?>
                         </div>

@@ -24,13 +24,16 @@
     
     <a href="#" class="arrow action right"></a>
     
-    <?php if($data['image_num'] > 1) { ?>
     <div class="pip_container">
+    <?php if($data['image_num'] > 1) { ?>
         <?php for($i = 0; $i < $data['image_num']; $i++) { ?>
     	<a href="#" class="pip<?php if($i == 0) { ?> active<?php } ?>"><img src="images/pip.png" alt="*" /></a>
     	<?php } ?>
-    </div>
+    		
+    <?php } else  { ?>
+    	<a href="#" class="pip active"><img src="images/pip.png" alt="*" /></a>
     <?php } ?>
+    </div>
 </div>
 
 <?php
