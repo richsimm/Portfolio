@@ -19,6 +19,10 @@ a {
 	color: #bfcc21;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 header nav {
     background-color: #000000;
     padding: 1.5em 0;

@@ -6,37 +6,34 @@
     <div id="container_inner">
         <section>
             <h3>
-                My web work
+                My print work
             </h3>
                 <nav class="work_menu">
-                        <a href="web" class="work_menu_item active">
+                        <a href="web" class="work_menu_item">
                             Web
                         </a>
                         <a href="brand" class="work_menu_item">
                             Brand
                         </a>
-                        <a href="print" class="work_menu_item">
+                        <a href="print" class="work_menu_item active">
                             Print
                         </a>
                 </nav>
                 
             <?php
-                $project = 'web_rajar';
+                $project = 'print_morgana';
                 include('__article.php');
 
-                $project = 'web_events';
+                $project = 'print_events';
                 include('__article.php');
 
-                $project = 'web_ess';
+                $project = 'print_mediatel';
                 include('__article.php');
 
-                $project = 'web_cc';
+                $project = 'print_ems';
                 include('__article.php');
 
-                $project = 'web_mediatel';
-                include('__article.php');
-
-                $project = 'web_barb';
+                $project = 'print_cc';
                 include('__article.php');
             ?>
 

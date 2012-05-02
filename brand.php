@@ -6,13 +6,13 @@
     <div id="container_inner">
         <section>
             <h3>
-                My web work
+                My brand work
             </h3>
                 <nav class="work_menu">
-                        <a href="web" class="work_menu_item active">
+                        <a href="web" class="work_menu_item">
                             Web
                         </a>
-                        <a href="brand" class="work_menu_item">
+                        <a href="brand" class="work_menu_item active">
                             Brand
                         </a>
                         <a href="print" class="work_menu_item">
@@ -21,22 +21,19 @@
                 </nav>
                 
             <?php
-                $project = 'web_rajar';
+                $project = 'brand_events';
                 include('__article.php');
 
-                $project = 'web_events';
+                $project = 'brand_cc';
                 include('__article.php');
 
-                $project = 'web_ess';
+                $project = 'brand_ems';
                 include('__article.php');
 
-                $project = 'web_cc';
+                $project = 'brand_procurus';
                 include('__article.php');
 
-                $project = 'web_mediatel';
-                include('__article.php');
-
-                $project = 'web_barb';
+                $project = 'brand_mediatel';
                 include('__article.php');
             ?>
 

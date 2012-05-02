@@ -54,7 +54,7 @@ $project_config = array(
     ),
     
 
-    'web_events' => array(
+    'web_barb' => array(
         'image_path' => 'images/work/web/barb/',
         'image_num' => 4,
         'image_alt' => 'BARB screen',
@@ -110,15 +110,16 @@ $project_config = array(
     'brand_events' => array(
         'image_path' => 'images/work/brand/events/',
         'image_num' => 2,
-        'image_alt' => 'Events logo',
+        'image_alt' => 'MediaTel Group Events brands',
         
         'logo' => 'images/work/logos/events/logo_p.png',
-        'logo_alt' => 'MediaTel Group Events brands',
+        'logo_alt' => 'MediaTel Group Events',
         'description' => "
             MediaTel Group hosts informative and entertaining seminars, conferences and exhibitions for the UK media industry. The engaging panel debates with key industry players give the latest views on this continually evolving sector.
         ",
         'bullets' => array(
-            ''
+            'Create unique, engaging brands for each event, keeping the disc theme throughout.',
+            'Design them for inclusion on the Events website, MediaTel Group\'s suite of products and printed material.'
         )
     ),  
     
@@ -133,7 +134,7 @@ $project_config = array(
             Connected Consumer collates major data, analysis and consumer insights on the burgeoning TV and video-streaming marketplace. This unique subscription service keeps media planners ahead of the game.
         ",
         'bullets' => array(
-            ''
+            'Represent the diverse, interactive nature of a multi-platform, multi-channel, multi-device media.'
         )
     ),
     
@@ -148,7 +149,9 @@ $project_config = array(
             MediaTel is the UK's largest media research and data system. Serving 94% of the media agency market, as well as over 50 major media owners, it is now the most popular media planning and research tool on the market.
         ",
         'bullets' => array(
-            ''
+            'Rejuvenate the 25 year old logo.',
+            'Create an icon set that represents the media databases within the MediaTel product.',
+            'Differentiate the databases whilst keeping consistency.'
         )
     ),
     
@@ -163,7 +166,8 @@ $project_config = array(
             Endoscopy management system for medical staff to securely manage the entire lifecycle of an endoscopy patient's pathway, from referral through to late outcome adverse events and follow-up.
         ",
         'bullets' => array(
-            ''
+            'Create a brand that appeals to medical professionals and administrators.',
+            'Represent the concept of endoscopy in the politest manner possible!'
         )
     ),
     
@@ -175,10 +179,12 @@ $project_config = array(
         'logo' => 'images/work/logos/procurus/logo_p.png',
         'logo_alt' => 'Procurus',
         'description' => "
-            Text needed
+            International logistics company specialising in wine and spirit forwarding.
         ",
         'bullets' => array(
-            ''
+            'Reflect the brand of the parent company WS Logistics.',
+            'Create a brand that conveys establishment and trustworthiness.',
+            'Consider the assets on which the logo will be used, such as customs documents, faxes and letterheads.'
         )
     ),
     
@@ -196,7 +202,7 @@ $project_config = array(
             Props and printed materials featured in scenes from Channel 4's sketch-based comedy show starring Morgana Robinson. She showcases her skilfully crafted range of characters and impersonations of the stars, including Cheryl Cole and Fearne Cotton.
         ",
         'bullets' => array(
-            ''
+            'Create prop graphics as requested by the Production Designer.'
         )
     ),    
     
@@ -211,7 +217,7 @@ $project_config = array(
             MediaTel Group hosts informative and entertaining seminars, conferences and exhibitions for the UK media industry. The engaging panel debates with key industry players give the latest views on this continually evolving sector.
         ",
         'bullets' => array(
-            ''
+            'Create printwork on demand for the array of Events brands.'
         )
     ),  
     
@@ -226,7 +232,7 @@ $project_config = array(
             Connected Consumer collates major data, analysis and consumer insights on the burgeoning TV and video-streaming marketplace. This unique subscription service keeps media planners ahead of the game.
         ",
         'bullets' => array(
-            ''
+            'A4 flyer promoting the Connected Consumer brand, describing website sections and the product benefits.'
         )
     ),
     
@@ -241,7 +247,8 @@ $project_config = array(
             MediaTel is the UK's largest media research and data system. Serving 94% of the media agency market, as well as over 50 major media owners, it is now the most popular media planning and research tool on the market.
         ",
         'bullets' => array(
-            ''
+            'Create impactful posters for display in media and communication departments at British universities.',
+            'Commission and art direct a photographer to create a striking series of shots emphasising the benefits of the MediaTel Index product.'
         )
     ),
     
@@ -256,7 +263,7 @@ $project_config = array(
             Endoscopy management system for medical staff to securely manage the entire lifecycle of an endoscopy patient's pathway, from referral through to late outcome adverse events and follow-up.
         ",
         'bullets' => array(
-            ''
+            'Create a brochure showing the solutions EMS provides across the patient\s pathway.'
         )
     ),
 

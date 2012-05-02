@@ -45,7 +45,7 @@
                 <div class="header_content">
                     <div class="header_content_inner">
                         <div class="emblem">
-                            <img src="images/RS_emblem.png" />
+                            <a href="index"><img src="images/RS_emblem.png" alt="RS" /></a>
                         </div>
                         <div class="header_text">
                             <h1>
