@@ -127,6 +127,11 @@ h4 {
     margin: 0 auto;
 }
 
+#container_inner,
+.panel_outer {
+    overflow: hidden; /* Fix float issues */
+}
+
 .pdf_link {
     float: left;
     margin-top: 15px;

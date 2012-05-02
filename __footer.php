@@ -60,7 +60,7 @@
                 if(!pip.hasClass('pip')) {
                     pip = pip.parents('a.pip');
                 }
-                
+
                 var carousel = pip.parents('.showcase_carousel');
 
                 changeToImage(carousel, pip.index());
@@ -69,6 +69,7 @@
             $(document).on('click', '.work_menu_square', function(event) {
 
                 event.preventDefault();
+                event.stopPropagation();
 
                 var anchor = $(event.target);
                 
@@ -86,7 +87,8 @@
                 var parent = anchor.parents('#container');
                 var carousel = parent.find('.showcase_carousel');
                 var description = parent.find('.panel_inner');
-                carousel.html('');
+
+                carousel.addClass('loading');
                 description.html('');
 
                 // Fetch data
@@ -100,10 +102,15 @@
                         var result = $(html);
 
                         // Update carousel
-                        carousel.html(result.find('.showcase_carousel'));
+                        var new_carousel = result.find('.showcase_carousel');
+                        carousel.html(new_carousel.html());
+                        carousel.get(0).className = new_carousel.get(0).className;
 
                         // Update description
                         description.html(result.find('.content_info'));
+
+                        // Stop loading
+                        carousel.removeClass('loading');
                     },
                     dataType: 'html'
                 });
