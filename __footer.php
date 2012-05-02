@@ -37,7 +37,7 @@
             });
         });
 
-        $(document).on('click', '.showcase_menu_item', function(event) {
+        $(document).on('click', '.work_menu_square', function(event) {
 
             var anchor = $(event.target);
             event.preventDefault();
@@ -49,7 +49,7 @@
             var project = anchor.attr('data-key');
 
             // Switch active states
-            $('.showcase_menu_item').removeClass('active');
+            $('.work_menu_square').removeClass('active');
             anchor.addClass('active');
 
             // Empty current carousel and description

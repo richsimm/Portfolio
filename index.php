@@ -9,32 +9,27 @@
                 Featured work
             </h3>
             <article class="showcase_container">
-                <div class="showcase_menu">
-                    <div class="showcase_menu_group active">
-                        <div class="showcase_menu_group_header">
+                <nav class="work_menu">
+                        <a href="web" class="work_menu_item">
                             Web
-                        </div>
-                        <a href="web#web_rajar" data-key="web_rajar" class="showcase_menu_item active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
-                        <a href="web#web_events" data-key="web_events" class="showcase_menu_item"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="web#web_barb" data-key="web_barb" class="showcase_menu_item"><img src="images/work/web/cc/thumb.jpg" width="50" height="50" border="0" /></a>
-                    </div>
-                    <div class="showcase_menu_group">
-                        <div class="showcase_menu_group_header">
+                        </a>
+                        <a href="web#web_rajar" data-key="web_rajar" class="work_menu_square active"><img src="images/work/web/rajar/thumb.jpg" width="50" height="50" border="0" alt="Rajar" /></a>
+                        <a href="web#web_events" data-key="web_events" class="work_menu_square"><img src="images/work/web/events/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="web#web_cc" data-key="web_cc" class="work_menu_square"><img src="images/work/web/cc/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="brand" class="work_menu_item">
                             Brand
-                        </div>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/brand/cc/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/brand/events/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/brand/procurus/thumb.jpg" width="50" height="50" border="0" /></a>
-                    </div>
-                    <div class="showcase_menu_group">
-                        <div class="showcase_menu_group_header">
+                        </a>
+                        <a href="brand#brand_cc" data-key="brand_cc" class="work_menu_square"><img src="images/work/brand/cc/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="brand#brand_events" data-key="brand_events" class="work_menu_square"><img src="images/work/brand/events/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="brand#brand_procurus" data-key="brand_procurus" class="work_menu_square"><img src="images/work/brand/procurus/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="print" class="work_menu_item">
                             Print
-                        </div>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/print/morgana/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/print/events/thumb.jpg" width="50" height="50" border="0" /></a>
-                        <a href="#" class="showcase_menu_item"><img src="images/work/print/mediatel/thumb.jpg" width="50" height="50" border="0" /></a>
-                    </div>
-                </div>
+                        </a>
+                        <a href="print#print_morgana" data-key="print_morgana" class="work_menu_square"><img src="images/work/print/morgana/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="print#print_events" data-key="print_events" class="work_menu_square"><img src="images/work/print/events/thumb.jpg" width="50" height="50" border="0" /></a>
+                        <a href="print#print_mediatel" data-key="print_mediatel" class="work_menu_square"><img src="images/work/print/mediatel/thumb.jpg" width="50" height="50" border="0" /></a>
+                
+                </nav>
                 <?php
                     $project = 'web_rajar';
                     include('__carousel.php');
@@ -50,26 +45,16 @@
                     <img src="images/work/logos/rajar/logo_r.png" border="0" />
                 </div>
                 <div class="content_copy">
-                    <p>
-                        MediaTel is the UK's largest media research and data system. Serving 94%
-                        of the media agency market, as well as over 50 major media owners, it is
-                        now the most popular media planning and research tool on the market.
-                    </p>
+                    <p>Radio Joint Audience Research is the official body in charge of measuring radio audiences within the UK. It is jointly owned by the BBC and the RadioCentre on behalf of the commercial sector.</p>
                     <p>
                         <strong>
                             Brief
                         </strong>
                     </p>
                     <ul>
-                        <li>
-                            Display vast amounts of data effectively.
-                        </li>
-                        <li>
-                            Increase usage through improved UI.
-                        </li>
-                        <li>
-                            Declutter, compartmentalise and modernise.
-                        </li>
+                        <li>Take the very dated original and burn it.</li>
+                        <li>Create a bold, content-rich online experience for industry and public use.</li>
+                        <li>Make it easily updateable to handle many complex data releases.</li>
                     </ul>
                 </div>
                 </div>

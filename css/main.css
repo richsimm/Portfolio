@@ -195,11 +195,11 @@ h4 {
 }
 
 .left {
-    background: url("../images/go_left.png") no-repeat center center;
+    background: url("../images/go_left.png") no-repeat left center;
 }
 
 .right {
-    background: url("../images/go_right.png") no-repeat center center;
+    background: url("../images/go_right.png") no-repeat right center;
 }
 
 .arrow:hover {
@@ -220,14 +220,14 @@ h4 {
 }
 
 .panel_outer {
-    margin-top: -105px;
+    margin-top: -120px;
     padding-top: 48px;
     background: url("../images/content_up_bkgd.gif") repeat top left;
 }
 
 .panel {
     background: url("../images/panel_bkgd.gif") repeat top left;
-    padding: 40px 0;
+    padding: 55px 0 40px;
     color: #FFFFFF;
 }
 
@@ -258,7 +258,7 @@ h4 {
     width: 600px;
     float: left;
 }
-
+/*
 .showcase_menu_group {
     margin: 0 0 10px 4px;
     float: left;
@@ -279,7 +279,6 @@ h4 {
 
 .showcase_menu {
     width: 100%;
-    overflow: hidden;
     padding: 0 40px;
     color: #486300;
     font: 19px/19px 'JosefinSansStdLight', Arial, sans-serif; 
@@ -289,10 +288,20 @@ h4 {
     height: 50px;
     width: 50px;
     margin-right: 5px;
+    float: left;
 }
 
 .showcase_menu_item.active {
     margin-top: -5px;
+}
+*/
+
+.showcase_carousel.loading {
+	background: url('../images/loader.gif') no-repeat 50% 40%;
+}
+
+.showcase_carousel.loading * {
+	visibility: hidden;
 }
 
 .showcase_carousel ol {
@@ -314,13 +323,14 @@ h4 {
 }
 
 .work_menu {
-    padding: 0 40px 20px;
+    padding: 5px 40px 20px;
     overflow: hidden;
 }
 
 .work_menu_item {
 	margin: 0 5px 0 0;
-    padding: 15px 20px 12px;
+	height: 24px;
+    padding: 18px 20px 8px;
     float: left;
     color: #486300;
     background-color: #e8eed7;
@@ -328,6 +338,37 @@ h4 {
     text-align: center;
     font: 19px/19px 'JosefinSansStdLight', Arial, sans-serif; 
     text-decoration: none;
+}
+
+#home .work_menu_item {
+    width: auto;
+	margin: 0 0 0 10px;
+}
+
+#home .work_menu_item:first-child {
+	margin: 0;
+}
+
+#home .work_menu_square {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    background-color: #000000;
+}
+
+#home .work_menu_square.active {
+    margin-top: -5px;
+}
+
+#home .work_menu_square:hover img {
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}
+
+.work_menu_item:hover {
+    color: #000000;
+	background-color: #e4e99f;
 }
 
 .work_menu_item.active {
