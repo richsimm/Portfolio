@@ -49,7 +49,7 @@ $project_config = array(
             Connected Consumer collates major data, analysis and consumer insights on the burgeoning TV and video-streaming marketplace. This unique subscription service keeps media planners ahead of the game.
         ",
         'bullets' => array(
-            'Connected Consumer is at this very moment undergoing a layout enhancement, but below is a sneak preview of the homepage in development. Don\'t tell anyone!'
+            'Connected Consumer is at this very moment undergoing a layout enhancement, but here is a sneak preview of the homepage in development. Don\'t tell anyone!'
         )
     ),
     

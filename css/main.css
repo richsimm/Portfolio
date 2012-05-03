@@ -338,6 +338,22 @@ h4 {
 }
 
 
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+
 .showcase_carousel ol {
     position: relative;
     width: 800px;
@@ -353,8 +369,15 @@ h4 {
 }
 
 .showcase_carousel ol li.active {
-    display: block;
+    display: block;    
 }
+
+/*.showcase_carousel ol li.active {
+    -webkit-animation: fadeIn 0.5s;
+    -moz-animation: fadeIn 0.5s;
+    -ms-animation: fadeIn 0.5s;
+}*/
+
 
 .work_menu {
     padding: 5px 40px 20px;
@@ -393,6 +416,9 @@ h4 {
 
 #home .work_menu_square.active {
     margin-top: -5px;
+    -moz-box-shadow: 0 3px 6px #666;
+	-webkit-box-shadow: 0 3px 6px #666;
+	box-shadow: 0 3px 6px #666;
 }
 
 #home .work_menu_square:hover img {
